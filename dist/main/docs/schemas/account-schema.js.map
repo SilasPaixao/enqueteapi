@@ -1,0 +1,1 @@
+{"version":3,"file":"account-schema.js","sourceRoot":"","sources":["../../../../src/main/docs/schemas/account-schema.ts"],"names":[],"mappings":";;;AAAa,QAAA,aAAa,GAAG;IAC3B,IAAI,EAAE,QAAQ;IACd,UAAU,EAAE;QACV,WAAW,EAAE;YACX,IAAI,EAAE,QAAQ;SACf;QACD,IAAI,EAAE;YACJ,IAAI,EAAE,QAAQ;SACf;KACF;IACD,QAAQ,EAAE,CAAC,aAAa,EAAE,MAAM,CAAC;CAClC,CAAA"}

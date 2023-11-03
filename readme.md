@@ -1,9 +1,3 @@
-[![Build Status](https://travis-ci.org/rmanguinho/clean-ts-api.svg?branch=master)](https://travis-ci.org/rmanguinho/clean-ts-api)
-[![Coverage Status](https://coveralls.io/repos/github/rmanguinho/clean-ts-api/badge.svg)](https://coveralls.io/github/rmanguinho/clean-ts-api)
-[![Known Vulnerabilities](https://snyk.io/test/github/rmanguinho/clean-ts-api/badge.svg)](https://snyk.io/test/github/rmanguinho/clean-ts-api)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 
 # **Clean Node API**
 
@@ -11,15 +5,14 @@
 
 ---
 
-## [**Link para o curso completo**](https://www.udemy.com/course/tdd-com-mango/?referralCode=B53CE5CA2B9AFA5A6FA1)
 
-Essa API faz parte do treinamento do professor Rodrigo Manguinho (Mango) na Udemy.
+Essa API foi construida seguindo as orientações do professor Rodrigo Manguinho (Mango) na Udemy.
 
-O objetivo do treinamento é mostrar como criar uma API com uma arquitetura bem definida e desacoplada, utilizando TDD (programação orientada a testes) como metodologia de trabalho, Clean Architecture para fazer a distribuição de responsabilidades em camadas, sempre seguindo os princípios do SOLID e, sempre que possível, aplicando Design Patterns para resolver alguns problemas comuns.
+API desenvolvida com o objetivo de colocar em prática a criação de uma API com uma arquitetura bem definida e desacoplada, utilizando TDD (programação orientada a testes) como metodologia de trabalho, Clean Architecture para fazer a distribuição de responsabilidades em camadas, sempre seguindo os princípios do SOLID e, sempre que possível, aplicando Design Patterns para resolver alguns problemas comuns.
+<br /><br />
 
-## [**Link para a documentação da API**](http://fordevs.herokuapp.com/api-docs)
 
-> ## APIs construídas no treinamento
+> ## Rotas
 
 1. [Cadastro](./requirements/signup.md)
 2. [Login](./requirements/login.md)
@@ -87,6 +80,9 @@ O objetivo do treinamento é mostrar como criar uma API com uma arquitetura bem 
 * Express
 * Apollo Server Express
 * Graphql
+* Graphql ISO Date
+* Graphql Scalars
+* Graphql Tools
 * Supertest
 * Husky
 * Lint Staged
@@ -101,6 +97,7 @@ O objetivo do treinamento é mostrar como criar uma API com uma arquitetura bem 
 * Copyfiles
 * Npm Check
 * Bson ObjectId
+* Apollo Server Integration Testing
 
 > ## Features do Node
 
@@ -114,6 +111,16 @@ O objetivo do treinamento é mostrar como criar uma API com uma arquitetura bem 
 * Nível de Acesso nas Rotas (Admin, User e Anônimo)
 * Deploy no Heroku
 * Servir Arquivos Estáticos
+
+> ## Features do GraphQL
+
+* Types
+* Queries
+* Mutations
+* Resolvers
+* Directives
+* Scalars
+* Plugins
 
 > ## Features do Git
 
@@ -140,10 +147,19 @@ O objetivo do treinamento é mostrar como criar uma API com uma arquitetura bem 
 * Deploy
 * Uso de Breakpoints
 
+> ## Features do GraphQL
+
+* Resolvers
+* Type Definitions
+* Directives
+* Scalars
+* Plugins
+* Error Handling
+
 > ## Features de Testes
 
 * Testes Unitários
-* Testes de Integração
+* Testes de Integração (API Rest & GraphQL)
 * Cobertura de Testes
 * Test Doubles
 * Mocks
